@@ -1,0 +1,47 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pacifico', cursive; /* Changed to a cute font */
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0); /* Softer gradient colors */
+    color: #4A4A4A;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(120deg, #ff6a88, #ffcc70); /* Feminine colors */
+    color: white;
+}
+
+/* Other styles remain the same, or you can modify borders, buttons, etc. */
+button {
+    background-color: #ff6a88; /* Soft button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px; /* Rounded button */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffcc70; /* Hover effect */
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #fff3f5; /* Lighter dark mode background */
+    color: #333;
+}
+
+body.dark-mode section {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Additional styling can be added for cute elements */
